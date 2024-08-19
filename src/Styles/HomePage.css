@@ -1,0 +1,93 @@
+:root {
+  --color-blue0: #00d0eb;
+  --color-white: #ffffff;
+  --color-gray0: #f6f6f6;
+  --color-gray1: #e3e2e3;
+  --color-gray2: #e0e0e0;
+  --color-dark0: #454545;
+  --color-green0: #d3ffd8;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.login {
+  width: 350px;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 60px 10px 10px 35px;
+  align-items: right;
+
+
+  & .logo {
+    width: 130px;
+    height: 65px;
+  }
+
+  & .loguot {
+    width: 65px;
+    height: 25px;
+    color: var(--color-white);
+    background-color: var(--color-dark0);
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+
+  & .loguot:hover {
+    color: var(--color-dark0);
+    background-color: var(--color-blue0);
+  }
+
+  & .logado {
+    padding-bottom: 20px;
+  }
+
+  & .username {
+    color: var(--color-blue0);
+    font-weight: bold;
+  }
+}
+
+
+.content-ad {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-gray0);
+  border-left: 2px solid var(--color-gray2);
+  width: 1600px;
+  padding: 33px 10px 10px 35px;
+
+  & .titulo {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+
+  & .filtros {
+    padding: 0 0 20px 0;
+  }
+
+}
+
+.voltarhome {
+  width: 65px;
+  height: 25px;
+  color: var(--color-white);
+  background-color: var(--color-dark0);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.voltarhome:hover {
+  color: var(--color-dark0);
+  background-color: var(--color-blue0);
+}

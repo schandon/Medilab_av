@@ -1,0 +1,23 @@
+.container-filtos {
+  display: flex;
+  align-items: center; 
+  gap: 16px; 
+}
+
+.filtroData, .filtroModalidade {
+  width: 225px; 
+}
+
+.filtroTudo {
+  width: 400px;
+}
+
+.lupa {
+  color: var(--color-dark);
+}
+
+
+
+
+
+

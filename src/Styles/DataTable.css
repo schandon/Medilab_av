@@ -1,0 +1,22 @@
+.tabelaDados {
+  font-family: Arial, sans-serif;
+  border: 1px solid var(--color-gray2);
+  overflow: hidden;
+}
+
+.tabelaDados .rdt_TableHead {
+  font-weight: bold;
+  color: var(--color-dark0);
+  font-size: small;
+}
+
+.tabelaDados .rdt_TableRow:hover {
+  background: var(--color-green0);
+}
+
+.visualizacao-cell {
+  cursor: pointer;
+  color: var(--color-blue0);
+  font-weight: bold;
+  text-align: center;
+}
