@@ -12,7 +12,7 @@ No diretorio do projeto, você precisa rodar:
 Para incializar o projeto, você precisa rodar:
 `npm start`
 
-Aplicação estava rodando, Abrindo Open [http://localhost:3000](http://localhost:3000) no navegador
+Aplicação estava rodando, Abrindo [http://localhost:3000](http://localhost:3000) no navegador
 
 ## Informações Adicionais
 
